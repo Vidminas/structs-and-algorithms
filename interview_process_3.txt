@@ -1,0 +1,32 @@
+// Question:
+// Execute a function when any of the links inside a list are clicked
+
+// 1. Repeat the question back / ask questions
+// What framework are we using? - JQuery or vanilla ES2019
+// Is it the same function for all links?
+// Should the default action be prevented?
+// How many links can the list contain?
+// Should it work for links that are dynamically added?
+
+// 2. Discuss the solution
+// - Use onclick callback for each link? But what if new links get added
+// - Create a template for each link? But we can have millions of links, too much duplication
+// - Use event delegation for the root DOM? Nice!
+
+// 3. Code it up
+/*
+list.addEventListener('click', e => {
+    if (e.target.nodeName === 'A') {
+        callback(e);
+    }
+});
+*/
+
+// 4. Test it out
+// Would have to run it
+
+// 5. Iterate on your solution
+
+// 6. Be yourself!
+
+// Talk with Stefi about the DOM

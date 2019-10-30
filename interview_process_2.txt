@@ -1,0 +1,21 @@
+// Question:
+// Given a tree, determine if it is a binary search tree
+
+// 1. Repeat the question back
+// For a given binary tree, check if for every node:
+// - its child on the left is smaller than its parent
+// and its child on the right is greater than its parent
+
+// 2. Ask questions
+// What is a binary search tree?
+// How is the tree represented? - Suppose every node has a value and 2 pointers
+// Is the given tree acyclic?
+// Are the values unique?
+
+// 3. Discuss
+// Advantages of using an iterative vs recursive approach?
+
+// 4. Code it up and talk through
+// ...
+
+// 5. Test the solution

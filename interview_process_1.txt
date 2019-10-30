@@ -1,0 +1,26 @@
+// Question:
+// Given two strings, determine if they are anagrams
+
+// 1. repeat the question back
+// Find out whether two strings contain the same characters
+
+// 2. ask about edge cases
+// How much memory can I use?
+// What language are the strings?
+// Are there any special characters, or are they all letters?
+// Does the case matter?
+// What about whitespace?
+
+// 3. think of a solution
+// sort the strings and check if the results are the same
+
+// 4. talk through your code
+// ...
+
+// 5. manual walkthrough testing, e.g. with "draw" and "ward"
+// how about unequal length strings, e.g. "face" and "faces"?
+
+// 6. iterate through the process:
+//  - what is the time complexity of your solution? O(n*lgn)
+//  - what is the space complexity of your solution? O(n)
+//  can you do better?
